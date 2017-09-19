@@ -40,41 +40,7 @@ var app = new Vue({
           this.results = response.data
           console.log(response.data)
           this.formHide = true;
-          // this.weightChart(response.data)
         })
       },
-  //   weightChart: function(data){
-  //     var chart = document.getElementById("myChart").getContext('2d');
-  //     console.log(chart)
-  //     var myChart = new Chart(chart).Doughnut([
-	// 	{
-	// 		value: data.weight.lb 2.204,
-	// 		color:"#42f47d",
-	// 		highlight: "#FF5A5E",
-	// 		label: "Green"
-	// 	},
-	// 	{
-	// 		value: 50,
-	// 		color: "#ef5734",
-	// 		highlight: "#5AD3D1",
-	// 		label: "Red"
-	// 	}
-	// ],
-	// // Options
-	// {
-	// 	segmentShowStroke : true,
-	// 	segmentStrokeColor : "#fff",
-	// 	segmentStrokeWidth : 2,
-	// 	percentageInnerCutout : 50,
-	// 	animationSteps : 100,
-	// 	animationEasing : "easeOutBounce",
-	// 	animateRotate : true,
-	// 	animateScale : false,
-	// 	responsive: true,
-	// 	maintainAspectRatio: true,
-	// 	showScale: true,
-	// 	animateScale: true
-	// });
-  //   }
   }
 })
