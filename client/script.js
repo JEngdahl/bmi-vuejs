@@ -33,7 +33,7 @@ var app = new Vue({
       this.data.height.value = `${temp[0]}-${temp[1]}`
       axios({
           method: 'POST',
-          url: 'https://bmi-vuejs.herokuapp.com/',
+          url: 'https://bmi-vuejs.herokuapp.com/sendbmi',
           params: this.data
         })
         .then(response => {
